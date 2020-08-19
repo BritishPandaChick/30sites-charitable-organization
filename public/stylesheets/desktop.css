@@ -1,0 +1,143 @@
+/* Base Styles */
+body {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #4169E1;
+}
+
+header .navbar-brand {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Banner */
+#banner {
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/04/08/14/tree-2916763_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#banner .group {
+    padding: 90px 0;
+}
+
+#banner h2 {
+    font-size: 45px;
+    padding: 15px 0;
+    color: #fff;
+}
+
+#banner button {
+    background-color: #4169E1;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Patron */
+#patron {
+    padding: 40px 0;
+}
+
+#patron h2 {
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    color: #4169E1;
+}
+
+#patron p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#patron button {
+    font-size: 20px;
+    background-color: #4169E1;
+    color: #fff;
+}
+
+/* Featured */
+#featured {
+    padding: 40px 0;
+}
+
+#featured h3 {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#featured button {
+    background-color: #4169E1;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Bottom Nav */
+#bottom-nav {
+    padding: 20px 0;
+    background-color: #4169E1;
+}
+
+#bottom-nav h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+#bottom-nav p {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#bottom-nav nav {
+    padding: 10px 0;
+}
+
+#bottom-nav nav ul li i {
+    color: #fff;
+    padding-left: 25px;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #4169E1;
+}
+
+footer p {
+    font-size: 16px;
+    color: #fff;
+}
+
+footer nav ul {
+    display: none;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+footer nav ul li a:hover {
+    color: #FFD700;
+}
